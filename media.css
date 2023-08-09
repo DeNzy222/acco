@@ -1,0 +1,6 @@
+@media (max-width: 400px), (max-width: 352px) {
+  .line_hor {
+    height: 2px;
+	width: 100%;
+  }
+}

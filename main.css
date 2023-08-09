@@ -1,0 +1,89 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: "Mulish", sans-serif;
+}
+:root {
+  --color_gd: #750b0b;
+}
+.genders {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.fr {
+  margin-right: 10px;
+  padding: 10px 15px;
+  color: white;
+  text-transform: uppercase;
+}
+.tw {
+  text-transform: uppercase;
+  padding: 10px 15px;
+}
+.acc_block {
+  margin-top: 76px;
+}
+.acc_main {
+  margin-left: 15px;
+  margin-top: 24px;
+  position: relative;
+  margin-bottom: 300px;
+}
+.accordion_sec {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+.accordion_sec > span {
+  font-weight: 700;
+}
+.line_hor {
+  background-color: #f1e7e7;
+  height: 1px;
+  width: 90%;
+  position: absolute;
+}
+.ln_bl {
+  position: relative;
+  bottom: 15px;
+}
+.show {
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  background-color: red;
+}
+.show_s {
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  background-color: red;
+  transform: rotate(90deg);
+}
+.cont_show {
+  position: absolute;
+  left: 80%;
+  bottom: 20px;
+}
+.content {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  width: 90%;
+  height: 100px;
+}
+.content > p {
+  padding-left: 20px;
+  padding-top: 30px;
+}
+.ic {
+  position: relative;
+  left: 170px;
+  transition: .5s ease;
+}
